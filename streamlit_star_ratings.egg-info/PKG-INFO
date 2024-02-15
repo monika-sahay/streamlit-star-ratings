@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: streamlit-star-ratings
+Version: 0.0.1
+Summary: Streamlit component that allows you to do include star ratings
+Home-page: 
+Author: Monika Monika
+Author-email: monika_sahay@yahoo.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=0.63
+Provides-Extra: devel
+Requires-Dist: wheel; extra == "devel"
+Requires-Dist: pytest==7.4.0; extra == "devel"
+Requires-Dist: playwright==1.39.0; extra == "devel"
+Requires-Dist: requests==2.31.0; extra == "devel"
+Requires-Dist: pytest-playwright-snapshot==1.0; extra == "devel"
+Requires-Dist: pytest-rerunfailures==12.0; extra == "devel"
+
+# streamlit-custom-component
+
+Streamlit component that allows you to add star ratings components in your streamlit application
+
+## Installation instructions
+
+```sh
+pip install streamlit-star-ratings
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from star_ratings import star_ratings
+
+ratings = star_ratings("", numStars=5)
+
+st.markdown("You've given %s ratings!" % int(ratings if ratings else 0))
+```
