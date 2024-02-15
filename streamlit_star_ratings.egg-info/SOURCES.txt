@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+star_ratings/__init__.py
+star_ratings/example.py
+star_ratings/frontend/build/asset-manifest.json
+star_ratings/frontend/build/bootstrap.min.css
+star_ratings/frontend/build/index.html
+star_ratings/frontend/build/static/js/main.ec585fbf.js
+star_ratings/frontend/build/static/js/main.ec585fbf.js.LICENSE.txt
+star_ratings/frontend/build/static/js/main.ec585fbf.js.map
+streamlit_star_ratings.egg-info/PKG-INFO
+streamlit_star_ratings.egg-info/SOURCES.txt
+streamlit_star_ratings.egg-info/dependency_links.txt
+streamlit_star_ratings.egg-info/requires.txt
+streamlit_star_ratings.egg-info/top_level.txt
